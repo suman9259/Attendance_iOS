@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (5.10.2)
+  - AlamofireImage (4.3.0):
+    - Alamofire (~> 5.8)
+  - AWSCognito (2.19.1):
+    - AWSCore (= 2.19.1)
+  - AWSCore (2.19.1)
+  - AWSRekognition (2.19.1):
+    - AWSCore (= 2.19.1)
+  - GTMSessionFetcher (4.5.0):
+    - GTMSessionFetcher/Full (= 4.5.0)
+  - GTMSessionFetcher/Core (4.5.0)
+  - GTMSessionFetcher/Full (4.5.0):
+    - GTMSessionFetcher/Core
+  - IQKeyboardManager (6.5.19)
+  - ReachabilitySwift (5.2.4)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - AWSCognito
+  - AWSRekognition
+  - GTMSessionFetcher
+  - IQKeyboardManager
+  - ReachabilitySwift
+  - SVProgressHUD
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - AWSCognito
+    - AWSCore
+    - AWSRekognition
+    - GTMSessionFetcher
+    - IQKeyboardManager
+    - ReachabilitySwift
+    - SVProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  AlamofireImage: 843953fa97bee5f561cf05d83abd759e590b068d
+  AWSCognito: f50de600804941d083af37a7568905f31a774727
+  AWSCore: 55c154ae27efc5c98bdc30a0eeea5a35d10a2ab5
+  AWSRekognition: 5450c553bdb0e42168b78669818127a5a0312a15
+  GTMSessionFetcher: fc75fc972958dceedee61cb662ae1da7a83a91cf
+  IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
+  ReachabilitySwift: 32793e867593cfc1177f5d16491e3a197d2fccda
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 95df4c730a838e3528e56932c78d2768aec1bc5d
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,38 @@
+//
+//  MediumLabel.swift
+//  JobDash
+//
+//  Created by CodeAegis's Macbook Pro i9 on 02/04/25.
+//
+
+import UIKit
+
+@IBDesignable
+class MediumLabel: UILabel {
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupFont()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        setupFont()
+    }
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        setupFont()
+    }
+    
+    override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+        setupFont()
+    }
+    
+    private func setupFont() {
+        if let fontName = UIFont(name: FontConstants.kMedium, size: self.font.pointSize) {
+            self.font = fontName
+        }
+    }
+}
