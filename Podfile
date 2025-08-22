@@ -23,7 +23,7 @@ target 'Attendance' do
 #       :git => 'https://github.com/InteriorAbsher/InteriorAbsherCoreLibrary.git',
 #       :tag => '0.2.0'
 
-pod 'InteriorAbsherCoreLibrary', :git => 'git@github.com:InteriorAbsher/InteriorAbsherCoreLibrary.git', :branch => '0.2.0'
+#pod 'InteriorAbsherCoreLibrary', :git => 'git@github.com:InteriorAbsher/InteriorAbsherCoreLibrary.git', :branch => '0.2.0'
 
   
   post_install do |installer|
