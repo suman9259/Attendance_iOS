@@ -1,0 +1,15 @@
+{
+  "originHash" : "9c5c890234a263ae103ebb6a49080a8777c2e7e3dda2905b695ac09a25d68d84",
+  "pins" : [
+    {
+      "identity" : "interiorabshersdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/InteriorAbsher/InteriorAbsherSDK.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8ea804377931f67442ad00e26646e308f1db200e"
+      }
+    }
+  ],
+  "version" : 3
+}

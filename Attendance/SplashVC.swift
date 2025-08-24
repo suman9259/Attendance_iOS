@@ -13,8 +13,13 @@ class SplashVC: BaseVC {
         super.viewDidLoad()
 
        
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
+//            _ = self.pushViewController(withName: HomeVC.id(), fromStoryboard: StoryBoardConstants.kMain)
+//        })
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
-            _ = self.pushViewController(withName: HomeVC.id(), fromStoryboard: StoryBoardConstants.kMain)
+            let miniApp = ModuleNameMiniApp()
+            miniApp.launch(presenter: self, data: ModuleNameAbsherHelper())
         })
     }
 

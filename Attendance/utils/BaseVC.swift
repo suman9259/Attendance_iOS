@@ -11,6 +11,19 @@ import CoreLocation
 import MessageUI
 import UniformTypeIdentifiers
 import PDFKit
+import SwiftUI
+
+struct BaseViewControllerWrapper: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> BaseVC {
+        let vc = BaseVC()
+        return vc
+    }
+
+    func updateUIViewController(_ uiViewController: BaseVC, context: Context) {
+        // update if needed
+    }
+}
+
 
 class BaseVC: UIViewController, MFMailComposeViewControllerDelegate {
     

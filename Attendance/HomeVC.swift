@@ -25,7 +25,7 @@ class HomeVC: BaseVC, LocationDelegate {
         punchInView.roundCorner(radius: 8.0)
         punchOutView.roundCorner(radius: 8.0)
         
-        viewmodel.authenticateUserApi()
+        //viewmodel.authenticateUserApi()
         
         setupViewModel()
         

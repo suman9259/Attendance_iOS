@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B39886B2E59BFED0011C68C /* AttendanceLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B39886A2E59BFED0011C68C /* AttendanceLog.swift */; };
+		1B83A58B2E58D383004CAECD /* InteriorAbsherSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 1B83A58A2E58D383004CAECD /* InteriorAbsherSDK */; };
+		1B83A58D2E58D4DC004CAECD /* ModuleNameAbsherHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B83A58C2E58D4DC004CAECD /* ModuleNameAbsherHelper.swift */; };
+		1B83A5912E58DA26004CAECD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B83A5902E58DA26004CAECD /* HomeView.swift */; };
+		1B83A5932E58FCCE004CAECD /* PunchOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B83A5922E58FCCE004CAECD /* PunchOutView.swift */; };
 		813F674A2E1E7CCA009BF39E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F67492E1E7CCA009BF39E /* HomeViewModel.swift */; };
 		813F675E2E1E970D009BF39E /* PunchOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F675D2E1E970D009BF39E /* PunchOutVC.swift */; };
 		81DE53C62E1E6C4B00EC3F32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DE53BC2E1E6C4B00EC3F32 /* AppDelegate.swift */; };
@@ -75,6 +80,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B39886A2E59BFED0011C68C /* AttendanceLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceLog.swift; sourceTree = "<group>"; };
+		1B83A58C2E58D4DC004CAECD /* ModuleNameAbsherHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleNameAbsherHelper.swift; sourceTree = "<group>"; };
+		1B83A5902E58DA26004CAECD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1B83A5922E58FCCE004CAECD /* PunchOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchOutView.swift; sourceTree = "<group>"; };
 		813F67492E1E7CCA009BF39E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		813F675D2E1E970D009BF39E /* PunchOutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchOutVC.swift; sourceTree = "<group>"; };
 		81DE535C2E1E684B00EC3F32 /* Attendance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attendance.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,15 +143,11 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		81DE53752E1E684E00EC3F32 /* AttendanceTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = AttendanceTests;
 			sourceTree = "<group>";
 		};
 		81DE537F2E1E684E00EC3F32 /* AttendanceUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = AttendanceUITests;
 			sourceTree = "<group>";
 		};
@@ -153,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B83A58B2E58D383004CAECD /* InteriorAbsherSDK in Frameworks */,
 				C77B72B64D441EB6156D5B28 /* Pods_Attendance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,6 +180,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B39886C2E59CC8A0011C68C /* New Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1B83A5902E58DA26004CAECD /* HomeView.swift */,
+				1B83A5922E58FCCE004CAECD /* PunchOutView.swift */,
+				1B39886A2E59BFED0011C68C /* AttendanceLog.swift */,
+			);
+			path = "New Screens";
+			sourceTree = "<group>";
+		};
 		686FA24558A8A287474A0BB2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				81DE53BC2E1E6C4B00EC3F32 /* AppDelegate.swift */,
+				1B83A58C2E58D4DC004CAECD /* ModuleNameAbsherHelper.swift */,
 				81DE53BD2E1E6C4B00EC3F32 /* Assets.xcassets */,
 				81DE53D52E1E6DBF00EC3F32 /* network */,
 				81DE542C2E1E6DD100EC3F32 /* constants */,
@@ -220,6 +237,7 @@
 				81DE53CE2E1E6C8D00EC3F32 /* Main.storyboard */,
 				81DE54322E1E6E3000EC3F32 /* SplashVC.swift */,
 				81DE54342E1E6E4B00EC3F32 /* HomeVC.swift */,
+				1B39886C2E59CC8A0011C68C /* New Screens */,
 				813F67492E1E7CCA009BF39E /* HomeViewModel.swift */,
 				813F675D2E1E970D009BF39E /* PunchOutVC.swift */,
 			);
@@ -460,6 +478,9 @@
 			);
 			mainGroup = 81DE53532E1E684B00EC3F32;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1B83A5892E58D383004CAECD /* XCRemoteSwiftPackageReference "InteriorAbsherSDK" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 81DE535D2E1E684B00EC3F32 /* Products */;
 			projectDirPath = "";
@@ -561,6 +582,7 @@
 				81DE540A2E1E6DCB00EC3F32 /* RegularLabel.swift in Sources */,
 				81DE540B2E1E6DCB00EC3F32 /* CountryCell.swift in Sources */,
 				81DE54332E1E6E3000EC3F32 /* SplashVC.swift in Sources */,
+				1B39886B2E59BFED0011C68C /* AttendanceLog.swift in Sources */,
 				81DE540D2E1E6DCB00EC3F32 /* PhoneCodeCell.swift in Sources */,
 				81DE540E2E1E6DCB00EC3F32 /* BaseVC.swift in Sources */,
 				81DE540F2E1E6DCB00EC3F32 /* UserDefaults.swift in Sources */,
@@ -568,6 +590,7 @@
 				81DE54132E1E6DCB00EC3F32 /* LocaleStore.swift in Sources */,
 				81DE54152E1E6DCB00EC3F32 /* CustomTextField.swift in Sources */,
 				81DE54162E1E6DCB00EC3F32 /* BaseViewModel.swift in Sources */,
+				1B83A5912E58DA26004CAECD /* HomeView.swift in Sources */,
 				81DE54172E1E6DCB00EC3F32 /* MediumLabel.swift in Sources */,
 				81DE54182E1E6DCB00EC3F32 /* LocalePickerViewController.swift in Sources */,
 				81DE54192E1E6DCB00EC3F32 /* fileextensions.swift in Sources */,
@@ -581,6 +604,7 @@
 				81DE54202E1E6DCB00EC3F32 /* ToastManager.swift in Sources */,
 				81DE53D62E1E6DBF00EC3F32 /* ErrorModel.swift in Sources */,
 				81DE54352E1E6E4B00EC3F32 /* HomeVC.swift in Sources */,
+				1B83A58D2E58D4DC004CAECD /* ModuleNameAbsherHelper.swift in Sources */,
 				81DE53D72E1E6DBF00EC3F32 /* NetworkManager.swift in Sources */,
 				81DE53D82E1E6DBF00EC3F32 /* WebService.swift in Sources */,
 				81DE542D2E1E6DD100EC3F32 /* KeyConstants.swift in Sources */,
@@ -588,6 +612,7 @@
 				81DE542F2E1E6DD100EC3F32 /* DeviceTypeConstants.swift in Sources */,
 				81DE53D92E1E6DBF00EC3F32 /* NetworkUrl.swift in Sources */,
 				81DE53DA2E1E6DBF00EC3F32 /* CommonModel.swift in Sources */,
+				1B83A5932E58FCCE004CAECD /* PunchOutView.swift in Sources */,
 				813F675E2E1E970D009BF39E /* PunchOutVC.swift in Sources */,
 				81DE53C82E1E6C4B00EC3F32 /* ViewController.swift in Sources */,
 			);
@@ -945,6 +970,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B83A5892E58D383004CAECD /* XCRemoteSwiftPackageReference "InteriorAbsherSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/InteriorAbsher/InteriorAbsherSDK.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1B83A58A2E58D383004CAECD /* InteriorAbsherSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B83A5892E58D383004CAECD /* XCRemoteSwiftPackageReference "InteriorAbsherSDK" */;
+			productName = InteriorAbsherSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 81DE53542E1E684B00EC3F32 /* Project object */;
 }

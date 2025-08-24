@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import InteriorAbsherSDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if #available(iOS 13.0, *) {
             UIWindow.appearance().overrideUserInterfaceStyle = .light
         }
+        
+        FontLoader.registerFonts()
+        AbsherService.applyHelper(ModuleNameAbsherHelper())
         
         return true
     }
